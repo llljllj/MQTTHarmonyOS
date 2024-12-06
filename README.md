@@ -1,0 +1,1 @@
+官方给的库只支持HarmonyOS NEXT版本的API使用，不过可以去库文件里修改限制，但是你的预览器就无法看到这个mqtt库带来的效果，只能用真机运行，修改流程如下：首先找到oh_modules/@ohos/mqtt/src/main/module.json这个文件。将API支持版本改成9即可，再点击运行
